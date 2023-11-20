@@ -1,0 +1,45 @@
+{
+    "class": "DevCxMode",
+    "board": {
+        "class": "DevBoard",
+        "multiple": 0,
+        "lpfFreq": 0,
+        "lockedTimeOut": 600
+    },
+    "motor": {
+        "class": "DevMotor",
+        "xMotor": 1,
+        "yMotor": 2,
+        "speed": 2000,
+        "maxSpeed": 3000,
+        "pulse": 0,
+        "type": null
+    },
+    "kuaiYan": {
+        "class": "DevKuaiYan",
+        "serial": null,
+        "dType": null,
+        "index": 0,
+        "name": null,
+        "zero": 0.7,
+        "kType": 0.5,
+        "lightMul": 6,
+        "freqDivision": 0,
+        "scanArr": [
+            {
+                "class": "ScanParam",
+                "time": 120,
+                "freq": 25
+            },
+            {
+                "class": "ScanParam",
+                "time": 90,
+                "freq": 30
+            }
+        ]
+    },
+    "gpcxSave": 1,
+    "ptCheck": 0,
+    "compress_signal":1,
+    "robot":1
+}

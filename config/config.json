@@ -1,0 +1,85 @@
+{
+    "class": "AppData",
+    "cxMode": {
+        "class": "DatCxMode",
+        "xStart": 1.0,
+        "xEnd": 50.0,
+        "xStep": 1.0,
+        "yStart": 1.0,
+        "yEnd": 70.0,
+        "yStep": 1.0,
+        "angle": 2.0,
+        "refraction": 0.5,
+        "isPeakTrough": true,
+        "isSection": false,
+        "isThickness": false,
+        "timeOut": 0
+    },
+    "gpMode": {
+        "class": "DatGpMode",
+        "angle": 0,
+        "start": 20,
+        "end": 80,
+        "step": 1,
+        "thickness": 0,
+        "isAutoAnalysis": true,
+        "timeOut": 0
+    },
+    "cgMode": {
+        "class": "DatCgModel",
+        "avgNum": 1,
+        "angle": 20,
+        "scanTime": 1000,
+        "thickness": 1.0,
+        "isAutoAnalysis": false,
+        "timeOut": 0,
+        "refraction": 2.0
+    },
+    "serialMode": {
+        "class": "SerialMode",
+        "laser": null,
+        "amplifier": null,
+        "delayLine": null,
+        "bias": null,
+        "changeOver": null
+    },
+    "tcpListener": {
+        "class": "Listener",
+        "ip": null,
+        "port": 0,
+        "start": false
+    },
+    "devNetwork": {
+        "class": "DevNetwork",
+        "ip": null,
+        "port": 0,
+        "gateWay": null
+    },
+    "logLevel": 0,
+    "product": 0,
+    "dbPath": null,
+    "laserOn": null,
+    "title": "",
+    "bscan1": false,
+    "bscan2": false,
+    "view": null,
+    "polarization": 0,
+    "model": 0,
+    "temperature": 0,
+    "loginCode": [
+        49,
+        35,
+        65,
+        100,
+        109,
+        105,
+        110,
+        35,
+        56,
+        56,
+        56,
+        56,
+        56,
+        56
+    ]
+}

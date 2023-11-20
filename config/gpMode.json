@@ -1,0 +1,20 @@
+{
+    "class": "DevGpMode",
+    "serial": "/dev/ttyS0",
+    "showThick": false,
+    "amplifier": {
+        "class": "DevAmplifier",
+        "time": 200,
+        "phase": 80,
+        "BPG": null,
+        "LPG": null,
+        "PAG": null
+    },
+    "delay": {
+        "class": "Delay",
+        "start": null,
+        "speed": null,
+        "interval": null
+    },
+    "pi": ""
+}

@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="Image">
+    <file>user.png</file>
+    <file>edit.png</file>
+    <file>unexpand.png</file>
+    <file>LogoLarge.png</file>
+    <file>Logo.png</file>
+    <file>lock.png</file>
+    <file>folder.png</file>
+    <file>expand.png</file>
+    <file>account.png</file>
+    <file>file.png</file>
+    <file>setting.png</file>
+    <file>sign-out.png</file>
+    <file>switch.png</file>
+  </qresource>
+</RCC>

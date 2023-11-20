@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1197</width>
+    <height>781</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QGroupBox,QListWidget,QStackedWidget{background-color: #FFF4F5FA;border:none;}
+LeftNavButton{background-color: #FFFFFF;border:none;}
+LeftNavButton&gt;QLabel{color:#FF4D4D4D;font-family:&quot;宋体&quot;;margin-left:10px;font-size:12pt;}
+LeftNavSubButton{background-color: #FFFFFF;border:none;}
+LeftNavSubButton&gt;QLabel{color:#FF4D4D4D;font-family:&quot;宋体&quot;;margin-left:10px;font-size:12pt;}
+QLabel,QPushButton{color:#FF4D4D4D;border:none;}
+
+QPushButton:hover{background-color:#8F00A3DA;}
+QPushButton:pressed{background-color:#FF00A3DA;}
+QPushButton:checked{background-color:#FF00A3DA;}
+
+/*背景*/
+#gbxBackGround{background-color: #FFF4FAF5;}
+#gbxLeft,#gbxRight{background-color: #FFFFFF;}
+#gbxPg1,#gbxPg2{background-color: #FFFFFF;}
+
+
+
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="gbxBackGround">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <property name="leftMargin">
+       <number>9</number>
+      </property>
+      <property name="topMargin">
+       <number>9</number>
+      </property>
+      <property name="rightMargin">
+       <number>9</number>
+      </property>
+      <property name="bottomMargin">
+       <number>9</number>
+      </property>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="spacing">
+         <number>15</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="gbxLeft" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>270</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>270</width>
+            <height>16777215</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="gbxRight">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QStackedWidget" name="stackedWidget"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

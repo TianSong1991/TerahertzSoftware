@@ -1,0 +1,19 @@
+{
+    "class": "YinQConf",
+    "type": 0.5,
+    "zero": -2,
+    "confArr": [
+        {
+            "class": "YinQParam",
+            "key": "30Hz/90ps",
+            "cp": 929,
+            "ci": 834,
+            "vp": 3,
+            "vi": 5,
+            "pp": 1000,
+            "vff": 15084,
+            "aff": 0,
+            "offc": 600
+        }
+    ]
+}
